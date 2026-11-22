@@ -1,0 +1,40 @@
+{
+  "feature_set": "order_only",
+  "fold_starts": [
+    "2017-11-01",
+    "2018-01-01",
+    "2018-03-01",
+    "2018-05-01",
+    "2018-07-01"
+  ],
+  "fold_months": 2,
+  "mean_over_folds": {
+    "lightgbm": {
+      "roc_auc": 0.6579,
+      "pr_auc": 0.1609,
+      "lift_at_10pct": 2.53,
+      "recall_at_10pct": 0.253
+    },
+    "logistic_regression": {
+      "roc_auc": 0.6628,
+      "pr_auc": 0.1547,
+      "lift_at_10pct": 2.3593,
+      "recall_at_10pct": 0.2359
+    }
+  },
+  "pooled_out_of_fold_lightgbm": {
+    "orders": 65585,
+    "base_rate": 0.08222916825493634,
+    "roc_auc": 0.6022554637694146,
+    "pr_auc": 0.11363391072485182,
+    "precision_at_5pct": 0.1320524550167734,
+    "recall_at_5pct": 0.08028926386055998,
+    "lift_at_5pct": 1.605907706707785,
+    "precision_at_10pct": 0.13799939005794448,
+    "recall_at_10pct": 0.1678101242351196,
+    "lift_at_10pct": 1.678229185416334,
+    "precision_at_20pct": 0.1272394602424335,
+    "recall_at_20pct": 0.3094752456888559,
+    "lift_at_20pct": 1.5473762284442798
+  }
+}

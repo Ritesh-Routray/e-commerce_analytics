@@ -1,0 +1,14 @@
+{
+  "delivered_orders": 96478,
+  "late_rate": 0.0677252845208234,
+  "reviewed_orders": 95832,
+  "avg_review_on_time": 4.290404802629372,
+  "avg_review_late": 2.270490518727472,
+  "review_gap": 2.0199142839019,
+  "review_gap_ci_low": 1.9806350107682387,
+  "review_gap_ci_high": 2.0591935570355617,
+  "one_star_share_on_time": 0.06619266414014377,
+  "one_star_share_late": 0.5376900172386774,
+  "revenue_in_late_orders": 985924.34,
+  "revenue_total": 13221498.110000001
+}
